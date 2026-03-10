@@ -1,0 +1,389 @@
+body {
+    background-color: #e9e2e4;
+}
+
+nav {
+    background-color: gray;
+}
+
+#mainNav .nav-link {
+    font-weight: bolder;
+    color: white;
+    
+}
+
+#mainNav .navbar-brand {
+    font-weight: bolder;
+    color: white;
+}
+
+
+#mainNav .nav-link:hover {
+    color: #af6c86;
+    
+}
+
+.hero-section {
+   min-height: 70vh;  
+    background-image: no-repeat;
+    background-position: center;
+  background-size: 100% 100%;
+  background-size: cover;
+
+}
+
+.hero-title {
+    font-size: 35px;
+    color: rgb(35, 34, 34);
+    font-family: "Google Sans", sans-serif;
+    padding-top: 80px;
+    margin-left: 5%;
+    font-weight: 700;
+}
+
+.hero-title span {
+color: #af6c86;
+}
+
+.contact-me {
+  background-color: #af6c86;  
+  height: 33px;
+  width: 120px;
+  font-weight: bolder;
+  color: white;
+  border-radius: 5px;
+  margin-left: 5%;
+  margin-top: 5%;
+  border: none;
+}
+
+.contact-me:hover {
+    background-color: white;
+    color: #af6c86;
+ 
+}
+
+.portfolio-img {
+    margin-top: 19%;
+    background-color: #af6c86;
+    border-radius: 35%;
+    height: 200px;
+    margin-left: 50%;
+}
+
+.about {
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 1%;
+    text-align: center;
+    color: #af6c86;
+   
+}
+
+.about-body span {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.divider {
+    display: flex;
+    border-bottom: dotted gray;
+    width: 50px;
+    margin-left: 45%;
+ display: inline-block;
+    color: aqua;
+     
+}
+
+.triangle {
+   display: inline-block;
+   margin-left: 0.8%;
+   color: gray;
+}
+
+.divider-right {
+    display: flex;
+    border-bottom: dotted grey;
+    width: 50px;
+    margin-left: 0.8%;
+    display: inline-block;
+}
+
+.about-body {
+    margin-top: 2%;
+    line-break: 20px;
+    
+}
+
+p span {
+    display: block;
+}
+
+.about-header {
+    font-size: 28px;
+    font-weight: bolder;
+    margin-top: 18%;
+    margin-bottom: 1%;
+}
+
+.img-portfoio {
+    background-color: #af6c86;
+    margin-top: 14%;
+    height: 300px;
+    
+}
+
+.language {
+    font-family: "Roboto", sans-serif;
+    font-size: 26px;
+    font-weight: bolder;
+    margin-left: 5%;
+
+}
+
+.body-img {
+    border-radius: 3px;
+   
+    
+}
+
+ul {
+    margin-left: 5%;
+}
+
+.Skills {
+    margin-top: 5%;
+    
+}
+
+#skill-body {
+ margin-top: 10%;
+}
+
+.portfolio-card {
+   height: 90%;
+    border-radius: 12px;
+    width: 80%;
+    margin-top: 7%;
+    margin-left: 6%;
+}
+.portfolio-imgg {
+   height: 92%;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.portfolio-body H1 {
+    font-size: 30PX;
+    font-family: "Roboto", sans-serif;
+    margin-top: 6%;
+}
+
+.portfolio-body H2 {
+    font-size: 21PX;
+    font-family: "Roboto", sans-serif;
+}
+
+.portfolio-body h3 {
+    text-transform: capitalize;
+}
+
+.challenge-body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    
+}
+
+ul {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+ul span {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.portfolio-body button {
+background-color: #af6c86;  
+height: 35px;
+width: 180px;
+font-weight: bolder;
+color: white;
+border-radius: 5px;
+border: none;
+}
+
+.contact-body {
+    background-color: #af6c86;
+    min-height: 200px;
+}
+
+.contact-body {
+    padding-top: 3%;
+    padding-left: 3%;
+}
+
+.contact-body .body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.contact-body h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+}
+
+.contact-body button {
+ background-color: white;  
+  height: 35px;
+  width: 250px;
+  font-weight: bolder;
+  color: #af6c86;
+  border-radius: 5px;
+  margin-left: 15%;
+  border: none;
+  margin-bottom: 1%;
+}
+
+.contact-body button:hover {
+    background-color: white; 
+    color: black;
+}
+
+.social-mm {
+    padding-left: 17%;
+    color: rgb(0, 0, 0);
+    text-decoration: underline black;
+}
+
+.social-mm:hover {
+    padding-left: 15%;
+    color: #e9dfe3;
+    text-decoration: underline #e9dfe3;
+}
+
+.social-m:hover {
+    padding-left: 1%;
+    color: #e9dfe3;
+    text-decoration: underline #e9dfe3;
+}
+
+.social-m {
+    padding-left: 1%;
+    color: rgb(0, 0, 0);
+    text-decoration: underline black;
+}
+
+.urgent {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 3%;
+}
+
+.footer p {
+    margin-top: 3%;
+    font-weight: bold;
+}
+
+.footer-img {
+    min-height: 20px;
+    margin-top: 2%;
+    margin-left: 40%;
+}
+
+ @media (max-width: 768px)  {
+.hero-title {
+    font-size: 25px;
+    margin-top: 4%;
+}
+
+
+    .divider {
+        margin-left: 5%;
+    }
+    .triangle {
+        margin-left: 5%;
+    }
+    
+    .divider-right {
+     margin-left: 5%;
+    }
+
+
+    .about {
+       text-align: start;
+       margin-left: 5%;
+    }
+
+    .language {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+ul {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.about-body span {
+    font-size: 15px;
+}
+
+.challenge-body {
+    font-size: 14px;
+    margin-left: 2.5%;
+    
+}
+.contact-body {
+    background-color: #af6c86;
+   min-height: 350px; 
+    width: auto;
+   padding-top: 3%;
+    padding-left: 3%;
+}
+
+.contact-body .body {
+    font-size: 14px;
+    margin-left: 2%;
+}
+
+.contact-body h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+.portfolio-body H1 {
+    font-size: 20PX;
+    margin-top: 7%;
+}
+
+.portfolio-body H2 {
+    font-size: 21PX;
+    font-family: "Roboto", sans-serif;
+}
+.portfolio-body h3 {
+    font-size: 18px;
+    margin-left: 2%;
+}
+
+.contact-body button {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.portfolio-img {
+    margin-left: 2%;
+}
+} 
+
