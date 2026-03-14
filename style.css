@@ -320,6 +320,16 @@ border: none;
 }
 
  @media (max-width: 768px)  {
+.container {
+        display: flex; 
+        flex-direction: row; /* Makes items sit side-by-side */
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 1100px;
+    }
+}
+     
 .hero-title {
     font-size: 25px;
     margin-top: 4%;
