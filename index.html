@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/favicon.jpg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <title>Olive | Web Developer</title>
+    <title>Olivia | Web Developer</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <nav class="navbar">
         <div class="nav-container">
-            <a href="#" class="logo">Olive.dev</a>
+            <a href="#" class="logo">Ohlie-dev</a>
 
             <input type="checkbox" id="menu-toggle" class="menu-checkbox">
             
@@ -23,8 +24,8 @@
             </label>
 
             <div class="nav-links">
-                <a href="#services">Home</a>
-                <a href="#work">About</a>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
                 <a href="#services">Services</a>
                 <a href="#work">Work</a>
                 <a href="#contact" class="btn-nav">Contact</a>
@@ -34,7 +35,7 @@
 
     <header class="hero">
         <div class="hero-container">
-            <span class="available">Available for Projects</span>
+            <span class="available" id="home">Available for Projects</span>
             <h1>I build high-converting landing pages and modern website that helps brands turn visitors into customers.</h1>
             <p>Clean code, modern aesthetics, and mobile-optimized layouts designed to scale your business. Stop losing leads in your DMs.</p>
             <div class="hero-cta">
@@ -46,6 +47,65 @@
         <div class="glow"></div>
     </header>
 
+    <section id="about" class="about">
+        <div class="container about-container-grid">
+            
+            <div class="about-visual">
+                <div class="circle-decor decor-top"></div>
+                <div class="circle-decor decor-bottom"></div>
+                
+                <div class="profile-frame">
+                    <img src="img/favicon.jpg" alt="Olive's Profile Photo" class="profile-img">
+                </div>
+            </div>
+            
+    
+            <div class="about-content">
+                <span class="about-badge" id="#about">About Me</span>
+                <h2>Get a website that will make a lasting impression on your audience.</h2>
+                <p class="about-description">
+                    I build good looking, ultra-responsive digital interfaces from scratch. I specialize in turning complex design concepts into clean, functional code that scales.
+                </p>
+                
+                <div class="info-card-box">
+                    <div class="info-item">
+                        <span class="info-label">Name:</span>
+                        <span class="info-value">Olivia</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Phone:</span>
+                        <span class="info-value">+(234) 8180931835</span>
+                    </div>
+
+                    <div class="info-item">
+                        <span class="info-label">LinkedIn:</span>
+                        <span class="info-value"><a href="https://www.linkedin.com/in/olivia-james-aaab613b6?utm_source=share_via&utm_content=profile&utm_medium=member_android" id="socialMediaLink">My Profile</a></span>
+                    </div>
+
+                    <div class="info-item">
+                        <span class="info-label">Instagram:</span>
+                        <span class="info-value"><a href="https://www.instagram.com/ohlie_dev_?igsh=dDdscTdhOGcwMmlw" id="socialMediaLink">My Profile</a></span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">GitHub:</span>
+                        <span class="info-value"><a href="https://github.com/Ohlie-Dev" id="socialMediaLink">My Profile</a></span>
+                    </div>
+
+                    <div class="info-item">
+                        <span class="info-label">Email:</span>
+                        <span class="info-value"><a href="mailto:someone@example.com">oliviajames.dev@gmail.com</a>
+                        </span>
+                    </div>
+               
+                <div class="about-actions">
+                    <a href="https://wa.me/+2348108931835" class="btn-primary-accent">Contact me &rarr;</a>
+                    <a href="#" class="btn-secondary-outline">Download my resume <span class="download-icon">☁</span></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
     <section id="services" class="services">
         <div class="container">
             <h2 class="section-title">Core Expertise</h2>
@@ -71,38 +131,79 @@
         <div class="container">
             <h2 class="section-title">Selected Work</h2>
             <div class="work-grid">
-                <!-- Project 1 -->
                 <div class="project-card">
-                    <div class="project-image-placeholder">
-                        <span>GreenRoot Landing Page</span>
-                    </div>
+                  <div class="project-image-placeholder">
+                      <div class="d-flex justify-content-between align-items-start mb-4">
+                         <div class="d-flex flex-column">
+                              <span class="card-meta-title">LEGAL SERVICES WEBSITE</span>
+                               <span class="card-year mt-1">&nearr; 2026</span>
+                           </div>
+                          <div class="card-title-wrapper text-end">
+                              <h2 class="card-main-title m-0">Reynolds Attorneys</h2>
+                          </div>
+                     </div>
+                  </div>
                     <div class="project-info">
-                        <h3>GreenRoot Platform</h3>
-                        <p>A sleek, modern responsive landing page built with custom CSS layouts.</p>
-                        <a href="#" class="project-link" target="_blank">Live Demo &rarr;</a>
+                        <span class="problem">PROBLEM</span>
+                        <p>The law firm required an elegant, highly professional digital platform to establish modern credibility, showcase practice areas, and capture high-value client leads.</p>
+
+                        <span class="problem">WHAT I BUILT</span>
+                        <p>Built a responsive, minimalist marketing website with clear hierarchy, clean typography systems, intuitive navigation flows, and optimized lead-capture elements.</p>
+
+                        <span class="problem">RESULT</span>
+                        <p>Established a premium digital presence that projects trust and professionalism, delivering fast loading speeds and perfect responsive layouts across all devices.</p>
+                        <a href="https://reynoldsattorneys.infinityfree.me/?i=1" class="project-link" target="_blank">Live Demo</a>
                     </div>
                 </div>
               
 
                 <div class="project-card">
-                    <div class="project-image-placeholder">
-                        <span>Reynolds Attorneys Demo</span>
-                    </div>
+                  <div class="project-image-placeholder">
+                      <div class="d-flex justify-content-between align-items-start mb-4">
+                         <div class="d-flex flex-column">
+                              <span class="card-meta-title">E-COMMERCE & FOOD</span>
+                               <span class="card-year mt-1">&nearr; 2026</span>
+                           </div>
+                          <div class="card-title-wrapper text-end">
+                              <h2 class="card-main-title m-0">Gracie Bites</h2>
+                          </div>
+                     </div>
+                  </div>
                     <div class="project-info">
-                        <h3>Reynolds Attorneys</h3>
-                        <p>A premium legal firm web concept focusing on crisp typography and trust layout.</p>
-                        <a href="#" class="project-link" target="_blank">Live Demo &rarr;</a>
+                        <span class="problem">PROBLEM</span>
+                        <p>The brand needed a clean, inviting digital menu and landing page to showcase their dishes and give hungry customers a smooth, appetite-inducing browsing experience.</p>
+
+                        <span class="problem">WHAT I BUILT</span>
+                        <p>Built a beautiful, lightweight landing page from scratch using clean semantic HTML5 and pure CSS to structure the menu sections and handle the layout presentation.</p>
+
+                        <span class="problem">RESULT</span>
+                        <p>Delivering a fully responsive, pixel-perfect layout that looks great on any screen.</p>
+                        <a href="https://graciebites.netlify.app/" class="project-link" target="_blank">Live Demo</a>
                     </div>
                 </div>
 
                 <div class="project-card">
-                    <div class="project-image-placeholder">
-                        <span>Reynolds Attorneys Demo</span>
-                    </div>
+                  <div class="project-image-placeholder">
+                      <div class="d-flex justify-content-between align-items-start mb-4">
+                         <div class="d-flex flex-column">
+                              <span class="card-meta-title">ECO-FRIENDLY AGRI-TECH</span>
+                               <span class="card-year mt-1">&nearr; 2026</span>
+                           </div>
+                          <div class="card-title-wrapper text-end">
+                              <h2 class="card-main-title m-0">GreenRoot Landing Page</h2>
+                          </div>
+                     </div>
+                  </div>
                     <div class="project-info">
-                        <h3>Reynolds Attorneys</h3>
-                        <p>A premium legal firm web concept focusing on crisp typography and trust layout.</p>
-                        <a href="#" class="project-link" target="_blank">Live Demo &rarr;</a>
+                        <span class="problem">PROBLEM</span>
+                        <p>The client needed a very simple landing page to showcase product and build client's trust.</p>
+
+                        <span class="problem">WHAT I BUILT</span>
+                        <p>I built a highly responsive, mobile-first web landing page utilizing clean semantic HTML5 and a fluid layout architecture driven completely by pure CSS Grid and Flexbox.</p>
+
+                        <span class="problem">RESULT</span>
+                        <p>Delivered an incredibly fast, lightweight user experience with optimized assets, seamless multi-device responsiveness, and a flawless live deployment via Netlify.</p>
+                        <a href="https://greenrootorganic.netlify.app/" class="project-link" target="_blank">Live Demo</a>
                     </div>
                 </div>
             </div>
@@ -111,18 +212,15 @@
 
     <section id="contact" class="contact">
         <div class="contact-container">
-            <h2>Ready to upscale your digital presence?</h2>
+            <h2>Are you ready to upscale your digital presence?</h2>
             <p>Let's deploy a landing page that solves your business problems and generates revenue this week. Currently booking projects for July/August.</p>
             <a href="https://wa.me/+2348108931835" class="btn-primary" target="_blank">Get In Touch</a>
         </div>
     </section>
 
     <footer class="footer">
-         <a href="https://facebook.com" class="fa fa-facebook" id="face"></a>
-          <a href="https://tweeter.com" class="fa fa-twitter"></a>
-          <a href="https://instagram.com" class="fa fa-instagram"></a>
-          <a href="https://instagram.com" class="fa-regular fa-envelope"></a>
-          
+         
+
         <p>&copy; 2026 Olive.dev. Built with precision.</p>
     </footer>
 
