@@ -1,0 +1,129 @@
+.header-subtitle {
+    color: var(--text-muted);
+    font-size: 1.15rem;
+    max-width: 600px;
+    margin-top: 12px;
+}
+
+.page-header {
+    position: relative;
+    padding-top: 140px;
+    padding-bottom: 40px;
+}
+
+.page-header h1 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    letter-spacing: -1.5px;
+    margin-top: 16px;
+    max-width: 850px;
+}
+
+.preview-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.work-showcase {
+    padding: 40px 0 80px 0;
+}
+
+.case-study-card {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-thin);
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding: 32px;
+    margin-bottom: 40px;
+    align-items: center;
+    transition: border-color 0.3s ease, transform 0.2s ease;
+}
+
+.case-study-card:hover {
+    border-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+.case-study-preview {
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(135deg, #1C1C1E, #0D0D0E);
+    border: 1px solid var(--border-thin);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.preview-placeholder span {
+    color: var(--text-muted);
+    font-weight: 600;
+    font-size: 1.1rem;
+    letter-spacing: -0.5px;
+}
+
+.case-study-details h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+    letter-spacing: -0.5px;
+}
+
+.case-study-details p {
+    color: var(--text-muted);
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+
+.tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.tag {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--border-thin);
+    color: var(--accent);
+    padding: 4px 12px;
+    border-radius: 16px;
+    font-size: 0.78rem;
+    font-weight: 500;
+}
+
+.case-study-actions {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+@media (max-width: 900px) {
+    .case-study-card {
+        grid-template-columns: 1fr;
+        padding: 24px;
+        gap: 24px;
+    }
+
+    .case-study-preview {
+        height: 220px;
+    }
+
+    .case-study-details h2 {
+        font-size: 1.4rem;
+    }
+
+    .case-study-actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .case-study-actions a {
+        text-align: center;
+    }
+}
